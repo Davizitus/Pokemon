@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import '../pages/index.css'
+import { Link } from "react-router-dom";
 const Pokemon = () => {
    const [Pokemon,setPokemon] = useState([]);
 
@@ -24,6 +25,7 @@ const Pokemon = () => {
                 <img class="poke-image" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${Pokemon.url.split('/')[6]}.png`} /> 
                 <h3>{Pokemon.order}</h3>
               </li>  
+            
             )
                 )}
           </ul>  

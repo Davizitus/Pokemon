@@ -19,23 +19,30 @@
 }
 
 body{
-    background-image: linear-gradient(rgb(0, 217, 255),rgb(81, 81, 226));
+    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700590751.jpg")  ;
     min-height: 100vh;
+    background-size: 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
     
 }
 
 .bah{
-color: red;
+color: rgb(235, 212, 86);
 box-shadow: -3px 2px 5px gray;
+background-color: rgb(41, 40, 40);
+border-radius: 0px 0px 10px 10px ;
+padding-top: 15px;
+text-align: top;
 }
 .poke-image {
   width: 20%; 
-   border: solid 2px;
+   border: solid 3px;
    border-radius: 10px;
    background-image: url("../Imagens/Pokeball-png.png");
    background-position: 50%;
    background-size: 160%;
-   background-color:  rgb(155, 191, 224);
+   background-color:  rgb(186, 213, 238);
     
 }
 
@@ -51,7 +58,10 @@ box-shadow: -3px 2px 5px gray;
 }
 .Div{
     background-color: rgb(34, 34, 34);
-    
+    border-bottom: 5px solid white;
+    border-radius: 0px 0px 20px 20px ;
 }
-
+.link{
+    color: rgb(76, 0, 255);
+}
 
